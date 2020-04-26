@@ -14,4 +14,3 @@ MAINTAINER David Ford <dford@smart-soft.com>
 EXPOSE 8080
 #RUN rm -fr /usr/local/tomcat/webapps/ROOT
 #COPY target/webapp /usr/local/tomcat/webapps/ROOT
-COPY target/webapp .
