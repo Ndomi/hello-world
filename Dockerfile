@@ -12,5 +12,6 @@ MAINTAINER David Ford <dford@smart-soft.com>
 #ENV DB_USER joeBlow
 #ENV DB_PASSWORD bla bla bla
 EXPOSE 8080
-RUN rm -fr /usr/local/tomcat/webapps/ROOT
-COPY target/webapp /usr/local/tomcat/webapps/ROOT
+#RUN rm -fr /usr/local/tomcat/webapps/ROOT
+#COPY target/webapp /usr/local/tomcat/webapps/ROOT
+COPY target/webapp .
